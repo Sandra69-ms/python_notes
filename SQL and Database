@@ -1,0 +1,135 @@
+Sql 
+
+What is a database?
+
+Database is structured collection of data that is organised and stored in away that makes easy  to manage access and update.
+
+uses
+
+1,Improve business processes
+2,keeptrack of customers
+3,store personnel data,
+4.keep record of music or book collection
+5,finances
+6,government organization
+7,health care 
+8,weather
+
+Types of databses
+
+1,relational database
+2,object oriented database
+3,distribution database
+4.data warehouse
+5,NoSQL database : Recently using databse because it does not have certain database
+
+What is SQL?
+
+1,Structerd Query language
+Acess and manipulate database
+EG: MySQL,oracile
+
+Importance of SQL in dataset
+
+2,Foundation of data management
+
+sql is standard lamnguage for managing and manipulating relational database
+it allows for efficent Querry updating and managing of data stored in relational database
+
+
+3,Data extraction
+
+SQLenables the extraction of revelent data from large dataset
+Analyse and data scientist use SQL to filter aggregate and transform data to gain insights.
+
+
+4,data manipulation
+
+SQL allows for creation , updating, and deleation of data reccords.
+It provide robust functions for data clening and preperation which are crucial steps in data analysis
+
+
+5,integration with data tools
+
+SQL integrate seamlesily with various data analysis and data science tools like R ,PYTHONand business inteligence tools
+it allows easy manipulation and identification of data
+
+6,Hiding large dataset
+
+Sql is optimised for handiling large voliumes of data effiency
+
+7,Data agregation and summarisation
+
+8,Data security and intergrity
+
+9,support for Advance Analysis
+
+10,Real time data processing
+SQL is used in real time dataprocessing and analyticsthrough tools like Apache fink
+
+11, Data warehousing
+
+12, ETL process
+13, Business Inteligence
+
+
+Database tables are refered to us relation
+the columns of atabile is Atributes or feilds
+Rows are refered as tuple or records
+
+
+
+Types of key
+primary key : entry of atable is Unique value
+Foreign key: one tables primary key when it added to another table then it is called Foriegn key.
+CompositeKey: Multiple column connected key
+Unique key: null value possible for one time
+
+
+data type
+char
+varchar
+int
+bolean
+float
+date
+date time
+
+Types of language
+data definition language :DDL Create ,Alter and drop
+data manipulationlanguage: Select, Isert, update, Delete
+data control language: Grant, Revoke
+transaction control language: Commit ,rollback,savepoint
+
+SQL commands are grouped into four main categories based on their function. 
+
+Data Definition Language (DDL)
+DDL commands are used to **define or modify database structures like tables, views, and indexes. They manage the schema of the database.
+`CREATE`: Used to create a new database object (e.g., `CREATE TABLE students`).
+ALTER: Used to modify the structure of an existing object (e.g., `ALTER TABLE students ADD COLUMN age INT`).
+`DROP`: Used to delete an existing database object (e.g., `DROP TABLE students`).
+
+Data Manipulation Language (DML)
+
+
+DML commands are used to **manage data within database objects**. They are responsible for adding, retrieving, updating, and deleting records.
+SELECT`: Retrieves data from a database (e.g., `SELECT * FROM students`).
+INSERT: Adds new rows of data to a table (e.g., `INSERT INTO students (name) VALUES ('Alice')`).
+UPDATE: Modifies existing data within a table (e.g., `UPDATE students SET age = 20 WHERE name = 'Alice'`).
+DELETE`: Deletes rows from a table (e.g., `DELETE FROM students WHERE name = 'Alice'`).
+
+
+
+ Data Control Language (DCL)
+
+DCL commands are used to **manage user permissions and access rights** to the database. They control who can perform what actions on the data.
+GRANT`: Gives specific privileges to a user or role (e.g., `GRANT SELECT ON students TO user1`).
+REVOKE: Removes previously granted privileges from a user or role (e.g., `REVOKE SELECT ON students FROM user1`).
+
+Transaction Control Language (TCL)
+
+TCL commands are used to **manage transactions in a database**. A transaction is a single logical unit of work that can consist of multiple SQL statements.
+COMMIT: Saves all changes made during the current transaction permanently to the database.
+`ROLLBACK: Undoes all changes since the last `COMMIT` or `SAVEPOINT`, reverting the database to its previous state.
+SAVEPOINT`: Creates a temporary marker within a transaction that you can roll back to later without affecting the entire transaction.
+
